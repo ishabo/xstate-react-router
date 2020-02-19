@@ -12,7 +12,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "build": "tsc",
-    "build:watch": "tsc --watch"
+    "build:watch": "tsc --watch",
+    "postinstall": "tsc --config tsconfig.json ./src"
   },
   "peerDependencies": {
     "@xstate/react": "^0.8.1",
